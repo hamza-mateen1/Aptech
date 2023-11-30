@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Marksheet</h2>
+
+<table>
+    <tr>
+        <th>Subject</th>
+        <th>Marks Obtained</th>
+    </tr>
+    <tr>
+        <td>Subject 1</td>
+        <td><input type="number" id="subject1" min="0" max="100" /></td>
+    </tr>
+    <tr>
+        <td>Subject 2</td>
+        <td><input type="number" id="subject2" min="0" max="100" /></td>
+    </tr>
+    <tr>
+        <td>Subject 3</td>
+        <td><input type="number" id="subject3" min="0" max="100" /></td>
+    </tr>
+    <tr>
+        <td>Subject 4</td>
+        <td><input type="number" id="subject4" min="0" max="100" /></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="text-align: center;">
+            <button onclick="calculateResult()">Calculate Result</button>
+        </td>
+    </tr>
+</table>
+
+<h3>Result</h3>
+<div id="result"></div> 
+
+    <script src="app.js"></script>
+</body>
+</html>
